@@ -16,7 +16,7 @@ public class DrivingEligibility {
         if (hasLicenseInput.equalsIgnoreCase("yes")) {
             hasLicense = true;
         } else {
-            hasLicense = false;
+            hasLicense = false
         }
 
         System.out.print("Are you above 18 (yes/no): ");
